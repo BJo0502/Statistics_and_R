@@ -9,6 +9,8 @@ The output of our summary statistics also provides a unique p-value for each ind
 
 The intercept of our regression analysis is -1.040e+02 which means that the expected value of our mpg will be less than 0 when all of our independent variables are set to 0. Given the very low values for each variables corresponding slope, we could consider it be zero.
 
+![r_script_screenshot_2](https://user-images.githubusercontent.com/88041368/142517541-a09f7f18-b19a-4c03-a74b-8d0a12cd98f2.PNG)
+
 Source: https://www.knowledgehut.com/blog/data-science/interpret-r-squared-and-goodness-fit-regression-analysis
 Source : https://statisticsbyjim.com/regression/interpret-adjusted-r-squared-predicted-r-squared-regression/
 Source : https://askinglot.com/how-do-you-interpret-a-negative-intercept-in-regression
@@ -20,7 +22,10 @@ For the second deliverable we are asked to assess if the variance of the suspens
 ## Deliverable 3: T-Test on Suspension Coils
 
 For this deliverable we are provided the population mean of 1500 pounds per square inch and asked to compare how the means of our sample lots compare (overall and grouped by individual lot). Since we are determining whether our sample means are higher or lower than that of the population, we need to conduct a one-tailed t-test. After conducting the analyses, we can see that the p-value for the overall sample, sample of Lot 1 and sample of Lot 2 all resulted in p-values greater than 0.05; however, Lot 3 produced a p-value of approximately 0.042 which is less than our significance level. These results allow us to state that we do not have sufficient evidence to reject our null hypothesis for the overall sample, Lot 1 sample and Lot 2 sample. For the Lot 3 sample we reject the null hypothesis.
+
 Our results are as follows:
+![t_tests_1](https://user-images.githubusercontent.com/88041368/142517543-f5b85d8c-f9ba-49de-9d0e-a10929057822.PNG)
+![t_test_2](https://user-images.githubusercontent.com/88041368/142517542-33516ddc-f962-4848-b581-b4a8ef8baeca.PNG)
 
 Source: https://www.investopedia.com/terms/o/one-tailed-test.asp
 
@@ -32,4 +37,11 @@ The null hypothesis would be: all four metrics are equally weighted when determi
 The alternative hypothesis would be:  all four metrics are not equally weighted when determining an overall safety score.
 
 Source: https://www.businessinsider.com/iihs-how-car-safety-ratings-determined-top-pick-2018-6
+
+## Screen Grab of R Script:
+
+![R Script Screenshot](https://user-images.githubusercontent.com/88041368/142517540-c2db74f8-87eb-45fd-a95c-5a4e38aae15e.PNG)
+
+
+
 
